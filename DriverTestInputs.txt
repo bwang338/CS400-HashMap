@@ -1,0 +1,22 @@
+3 101 A N
+3 102 B N
+3 103 C N
+3 104 D P
+0
+
+2 102
+2 104
+0
+
+4
+0
+
+5 FileReaderTestInputs.txt
+0
+
+3 A
+2 999 0
+2 A
+5 RandomFile 1 584 0
+1 ABC
+0

@@ -1,0 +1,11 @@
+0, NA, NA
+5, Y, P
+1, A, N
+4, X, N
+10, XX, N, ??
+2, B, N
+ABC, DEF, GHI
+3, C, P
+0, D, N
+6, Z, N
+1, E, P

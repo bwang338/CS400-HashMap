@@ -1,0 +1,14 @@
+public static boolean testFile() throws FileNotFoundException {
+    Path path = Paths.get("");
+    String s = path.toAbsolutePath().toString() + "/src";
+    File fileTest = new File(s + "/FileTest.txt");
+    if (fileTest.exists())
+      System.out.println("\tFileTest.txt is in this directory");
+    HashTableMap m = new HashTableMap();
+    m.fileReader(fileTest);
+    System.out.println(m.size());
+    if (!(m.containsKey(980) && m.containsKey(900) && m.containsKey(870))) {
+      return false;
+    }
+    return true;
+  }
